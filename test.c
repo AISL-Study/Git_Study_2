@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//연습용
 int main(void)
 {
 	char  op;
