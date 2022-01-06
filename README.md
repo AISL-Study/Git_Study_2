@@ -63,7 +63,7 @@ git pull origin main --allow-unrelated-histories
 자신의 로컬 환경에서 코드를 추가하는 작업을 하기 위해 브랜치를 만들어준다.
 
 ```swift
-git checkout -b “브랜치 이름”
+git checkout -b 브랜치 이름
 ```
 ※ 브랜치 이름은 본인 영문 이름으로 할 것. (누가 코드를 추가했는지를 확인하기 위해서)    
 ![image](https://user-images.githubusercontent.com/79391012/148189352-27063777-be0c-4186-b3b2-b830db10769c.png)
