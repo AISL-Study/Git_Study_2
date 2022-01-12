@@ -69,7 +69,7 @@ git checkout -b 브랜치 이름
 ![image](https://user-images.githubusercontent.com/79391012/148189352-27063777-be0c-4186-b3b2-b830db10769c.png)
 
 
-# 6. git push를 통해 원격 저장소에 반영하기
+# 7. git push를 통해 원격 저장소에 반영하기
 
 ```swift
 git push origin 브랜치 이름
@@ -77,7 +77,24 @@ git push origin 브랜치 이름
    > 원격 저장소에 내 브랜치로 수정한 내용을 push   
  
 ![image](https://user-images.githubusercontent.com/79391012/148189602-29695848-2a62-4dd0-b318-58a410a9b0bd.png)    
-![image](https://user-images.githubusercontent.com/79391012/148189639-fcfeec67-6f38-49af-a1c6-a52e0856c698.png)
+![image](https://user-images.githubusercontent.com/79391012/149075639-50c780f7-312c-42ab-8479-1a22d03b2b77.png)
 
 > 브랜치가 다음과 같이 새로 생성이 되면 성공!!
 
+
+
+
+
+# 에러
+1. 현재 폴더에 git 정보를 담은 파일이 없어서 에러 발생
+![image](https://user-images.githubusercontent.com/79391012/149068991-810d12b7-cf4e-4f7b-b3fb-7dc5b339f05c.png)
+
+>터미널에 $ git init 적고 다시 $ git remote add 명령어 실행 
+
+
+
+2. 로컬과 리모트의 주소가 맞지 않아 에러 발생 (로컬-master 브랜치, main 푸시 불가능)
+![image](https://user-images.githubusercontent.com/79391012/149074282-612fae4c-9dfb-4687-b657-77bdf721e038.png)
+![image](https://user-images.githubusercontent.com/79391012/149069211-b767880a-0d14-4be3-9ebc-b30364bbf986.png)
+
+>터미널에 $ git branch -m master main 적고 다시 $ git push origin main 실행
