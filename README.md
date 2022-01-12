@@ -87,13 +87,16 @@ git push origin 브랜치 이름
 
 # 에러
 1. 현재 폴더에 git 정보를 담은 파일이 없어서 에러 발생
+
 ![image](https://user-images.githubusercontent.com/79391012/149068991-810d12b7-cf4e-4f7b-b3fb-7dc5b339f05c.png)
 
 >터미널에 $ git init 적고 다시 $ git remote add 명령어 실행 
 
 
 
+
 2. 로컬과 리모트의 주소가 맞지 않아 에러 발생 (로컬-master 브랜치, main 푸시 불가능)
+
 ![image](https://user-images.githubusercontent.com/79391012/149074282-612fae4c-9dfb-4687-b657-77bdf721e038.png)
 ![image](https://user-images.githubusercontent.com/79391012/149069211-b767880a-0d14-4be3-9ebc-b30364bbf986.png)
 
